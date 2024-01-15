@@ -37,7 +37,7 @@ stack_t *create_node(int n)
 	return (node);
 }
 /**
- *free_nodes - Frees nodes in the stack.
+ *free_nod - Frees nodes in the stack.
  */
 void free_nod(stack_t **head)
 {
@@ -52,7 +52,7 @@ void free_nod(stack_t **head)
 	}
 }
 /**
- * add_to_queue - Adds a node to the queue.
+ * add_queue - Adds a node to the queue.
  * @new_node: Pointer to the new node.
  * @ln: line number of the opcode.
  */

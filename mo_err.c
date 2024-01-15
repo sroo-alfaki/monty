@@ -64,6 +64,10 @@ void more_err(int error_code, ...)
 			op = va_arg(ag, char *);
 			fprintf(stderr, "L%d: can't %s, stack too short\n", l_num, op);
 			break;
+		case 9:
+			fprintf(stderr, "L%d: division by zero\n",
+					va_arg(ag, unsigned int));
+			break;
 		default:
 			break;
 	}

@@ -57,4 +57,6 @@ void swap_nod(stack_t **, unsigned int);
 void add_nod(stack_t **, unsigned int);
 void err(int error_code, ...);
 void more_err(int error_code, ...);
+void sub_nod(stack_t **, unsigned int);
+void div_nod(stack_t **, unsigned int);
 #endif
